@@ -43,9 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A111621058905AC6B878366 /* Pods-MVPDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		1C5A1A3A16A604C959B40731 /* Pods-MVPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C02E59D5A0A30354E3C2B1A /* Pods-MVPDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoUITests/Pods-MVPDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38286902206BB1370085846B /* MVPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38286905206BB1370085846B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38286907206BB1370085846B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,10 +63,7 @@
 		3828693B206BBFCB0085846B /* AnimalsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsPresenter.swift; sourceTree = "<group>"; };
 		3828693D206BC4AF0085846B /* AnimalGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGateway.swift; sourceTree = "<group>"; };
 		6DC8B0206A7020C16F280779 /* Pods_MVPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D7802FDF7FDDBD10CADEE85 /* Pods-MVPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoUITests/Pods-MVPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9C273D24DF32D6390808AF4B /* Pods-MVPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AD3AE5B755371F65CC5AD612 /* Pods_MVPDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE94CEAB588FECB216C4C0F /* Pods-MVPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F8CAD7811623FF21751BCE28 /* Pods_MVPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,7 +102,6 @@
 				38286919206BB1370085846B /* MVPDemoTests */,
 				38286924206BB1370085846B /* MVPDemoUITests */,
 				38286903206BB1370085846B /* Products */,
-				56C2800CAF2320DC85DA9E06 /* Pods */,
 				B886659E0D8F5153B5297B47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -158,19 +151,6 @@
 				38286927206BB1370085846B /* Info.plist */,
 			);
 			path = MVPDemoUITests;
-			sourceTree = "<group>";
-		};
-		56C2800CAF2320DC85DA9E06 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9C273D24DF32D6390808AF4B /* Pods-MVPDemo.debug.xcconfig */,
-				BBE94CEAB588FECB216C4C0F /* Pods-MVPDemo.release.xcconfig */,
-				1C5A1A3A16A604C959B40731 /* Pods-MVPDemoTests.debug.xcconfig */,
-				1A111621058905AC6B878366 /* Pods-MVPDemoTests.release.xcconfig */,
-				2C02E59D5A0A30354E3C2B1A /* Pods-MVPDemoUITests.debug.xcconfig */,
-				8D7802FDF7FDDBD10CADEE85 /* Pods-MVPDemoUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B886659E0D8F5153B5297B47 /* Frameworks */ = {
@@ -647,7 +627,6 @@
 		};
 		3828692B206BB1370085846B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C273D24DF32D6390808AF4B /* Pods-MVPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -665,7 +644,6 @@
 		};
 		3828692C206BB1370085846B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE94CEAB588FECB216C4C0F /* Pods-MVPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -684,7 +662,6 @@
 		};
 		3828692E206BB1370085846B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5A1A3A16A604C959B40731 /* Pods-MVPDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -703,7 +680,6 @@
 		};
 		3828692F206BB1370085846B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A111621058905AC6B878366 /* Pods-MVPDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,7 +699,6 @@
 		};
 		38286931206BB1370085846B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C02E59D5A0A30354E3C2B1A /* Pods-MVPDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -742,7 +717,6 @@
 		};
 		38286932206BB1370085846B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D7802FDF7FDDBD10CADEE85 /* Pods-MVPDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

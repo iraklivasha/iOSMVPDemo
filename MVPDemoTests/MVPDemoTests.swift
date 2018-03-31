@@ -25,4 +25,7 @@ class MVPDemoTests: XCTestCase {
         XCTAssert(true)
     }
     
+    func testExample1() {
+        XCTAssert(true)
+    }
 }

@@ -32,4 +32,8 @@ class MVPDemoTests: XCTestCase {
     func testExample2() {
         XCTAssert(true)
     }
+    
+    func testExample3() {
+        XCTAssert(true)
+    }
 }

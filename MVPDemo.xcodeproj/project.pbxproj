@@ -22,6 +22,18 @@
 		3828693C206BBFCB0085846B /* AnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693B206BBFCB0085846B /* AnimalsPresenter.swift */; };
 		3828693E206BC4B00085846B /* AnimalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693D206BC4AF0085846B /* AnimalGateway.swift */; };
 		BB077C6C5E1D8814F331EF47 /* Pods_MVPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B540E213F274ADFDC377FDEF /* Pods_MVPDemoTests.framework */; };
+		DDB6ED842073AEB700A7778A /* AnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693B206BBFCB0085846B /* AnimalsPresenter.swift */; };
+		DDB6ED852073AEB700A7778A /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286933206BB4C70085846B /* GenericDataSource.swift */; };
+		DDB6ED862073AEB700A7778A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286907206BB1370085846B /* ViewController.swift */; };
+		DDB6ED872073AEB700A7778A /* AnimalDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286935206BBD8D0085846B /* AnimalDatasource.swift */; };
+		DDB6ED882073AEB700A7778A /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286937206BBDCB0085846B /* AnimalTableViewCell.swift */; };
+		DDB6ED892073AEB700A7778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286905206BB1370085846B /* AppDelegate.swift */; };
+		DDB6ED8A2073AEB700A7778A /* AnimalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693D206BC4AF0085846B /* AnimalGateway.swift */; };
+		DDB6ED8C2073AEB700A7778A /* Pods_MVPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */; };
+		DDB6ED8E2073AEB700A7778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3828690E206BB1370085846B /* LaunchScreen.storyboard */; };
+		DDB6ED8F2073AEB700A7778A /* AnimalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38286938206BBDCB0085846B /* AnimalTableViewCell.xib */; };
+		DDB6ED902073AEB700A7778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3828690C206BB1370085846B /* Assets.xcassets */; };
+		DDB6ED912073AEB700A7778A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38286909206BB1370085846B /* Main.storyboard */; };
 		E2EB6F992CFF4C130EA3737F /* Pods_MVPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C46518AFC36F392AB528FCD /* Pods_MVPDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +82,8 @@
 		7E8F58C642A091EC3DAF2CF8 /* Pods-MVPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoUITests/Pods-MVPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B540E213F274ADFDC377FDEF /* Pods_MVPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DDB6ED972073AEB700A7778A /* MVPDemoRel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemoRel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB6ED982073AEB700A7778A /* MVPDemoRel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MVPDemoRel-Info.plist"; path = "/Users/iraklivashakidze/Desktop/projects/demos/iOSMVPDemo/MVPDemoRel-Info.plist"; sourceTree = "<absolute>"; };
 		EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +109,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EB6F992CFF4C130EA3737F /* Pods_MVPDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB6ED8B2073AEB700A7778A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6ED8C2073AEB700A7778A /* Pods_MVPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +155,7 @@
 				38286903206BB1370085846B /* Products */,
 				365C5E7C922D56051CED32BF /* Pods */,
 				272F58D846C341B36C61390E /* Frameworks */,
+				DDB6ED982073AEB700A7778A /* MVPDemoRel-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +165,7 @@
 				38286902206BB1370085846B /* MVPDemo.app */,
 				38286916206BB1370085846B /* MVPDemoTests.xctest */,
 				38286921206BB1370085846B /* MVPDemoUITests.xctest */,
+				DDB6ED972073AEB700A7778A /* MVPDemoRel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +272,27 @@
 			productReference = 38286921206BB1370085846B /* MVPDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DDB6ED812073AEB700A7778A /* MVPDemoRel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB6ED942073AEB700A7778A /* Build configuration list for PBXNativeTarget "MVPDemoRel" */;
+			buildPhases = (
+				DDB6ED822073AEB700A7778A /* [CP] Check Pods Manifest.lock */,
+				DDB6ED832073AEB700A7778A /* Sources */,
+				DDB6ED8B2073AEB700A7778A /* Frameworks */,
+				DDB6ED8D2073AEB700A7778A /* Resources */,
+				DDB6ED922073AEB700A7778A /* [CP] Embed Pods Frameworks */,
+				DDB6ED932073AEB700A7778A /* [CP] Copy Pods Resources */,
+				DDB6ED9A2073AF8000A7778A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVPDemoRel;
+			productName = MVPDemo;
+			productReference = DDB6ED972073AEB700A7778A /* MVPDemoRel.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,6 +317,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 38286901206BB1370085846B;
 					};
+					DDB6ED812073AEB700A7778A = {
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 382868FD206BB1370085846B /* Build configuration list for PBXProject "MVPDemo" */;
@@ -288,6 +336,7 @@
 			projectRoot = "";
 			targets = (
 				38286901206BB1370085846B /* MVPDemo */,
+				DDB6ED812073AEB700A7778A /* MVPDemoRel */,
 				38286915206BB1370085846B /* MVPDemoTests */,
 				38286920206BB1370085846B /* MVPDemoUITests */,
 			);
@@ -317,6 +366,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB6ED8D2073AEB700A7778A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6ED8E2073AEB700A7778A /* LaunchScreen.storyboard in Resources */,
+				DDB6ED8F2073AEB700A7778A /* AnimalTableViewCell.xib in Resources */,
+				DDB6ED902073AEB700A7778A /* Assets.xcassets in Resources */,
+				DDB6ED912073AEB700A7778A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,70 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DDB6ED822073AEB700A7778A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB6ED922073AEB700A7778A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB6ED932073AEB700A7778A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB6ED9A2073AF8000A7778A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"irakli\"\ncp MVPDemoRel-Info.plist /Users/iraklivashakidze/Desktop/deleteme.plist";
+		};
 		FB342819D9B818157764F5EF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,6 +624,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				38286926206BB1370085846B /* MVPDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB6ED832073AEB700A7778A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6ED842073AEB700A7778A /* AnimalsPresenter.swift in Sources */,
+				DDB6ED852073AEB700A7778A /* GenericDataSource.swift in Sources */,
+				DDB6ED862073AEB700A7778A /* ViewController.swift in Sources */,
+				DDB6ED872073AEB700A7778A /* AnimalDatasource.swift in Sources */,
+				DDB6ED882073AEB700A7778A /* AnimalTableViewCell.swift in Sources */,
+				DDB6ED892073AEB700A7778A /* AppDelegate.swift in Sources */,
+				DDB6ED8A2073AEB700A7778A /* AnimalGateway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +897,43 @@
 			};
 			name = Release;
 		};
+		DDB6ED952073AEB700A7778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6FA09BD5D0365E07DADDA3 /* Pods-MVPDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F4U6C4J697;
+				INFOPLIST_FILE = "MVPDemoRel-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ge.bog.mvpdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f350de3-38de-4b19-ab65-7f516d7398e5";
+				PROVISIONING_PROFILE_SPECIFIER = dev_mvpdemo;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB6ED962073AEB700A7778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F4U6C4J697;
+				INFOPLIST_FILE = "MVPDemoRel-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ge.bog.mvpdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f905e3a-3d25-4bcf-9c25-0185e4ed9dbc";
+				PROVISIONING_PROFILE_SPECIFIER = appstore_mvpdemo;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -794,6 +969,15 @@
 			buildConfigurations = (
 				38286931206BB1370085846B /* Debug */,
 				38286932206BB1370085846B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB6ED942073AEB700A7778A /* Build configuration list for PBXNativeTarget "MVPDemoRel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6ED952073AEB700A7778A /* Debug */,
+				DDB6ED962073AEB700A7778A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

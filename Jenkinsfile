@@ -12,7 +12,7 @@ node {
       }
 
       stage ('Build') {
-          sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -scheme "MVPDemo" -configuration Debug ONLY_ACTIVE_ARCH=NO'
+          sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -scheme "MVPDemo" -configuration Debug ONLY_ACTIVE_ARCH=NO PROVISIONING_PROFILE=dev_mvpdemo'
       }
 
       stage ('Test') {

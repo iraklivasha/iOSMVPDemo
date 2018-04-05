@@ -1,48 +1,25 @@
 node {
+  stage('checkout') { // stage() is how we label parts of our pipeline. they can be visualised in the web ui.
+          checkout scm // we have to pull our code down from git first!
+  }
 
-    stage('Checkout/Build/Test') {
+  stage('bundler') {
+      // we use ruby's bundler to ensure our versions of cocoapods and fastlane are correct
+      sh 'bundle install'
+  }
 
-        // Checkout files.
-        checkout([
-            $class: 'GitSCM',
-            branches: [[name: 'master']],
-            doGenerateSubmoduleConfigurations: false,
-            extensions: [], submoduleCfg: [],
-            userRemoteConfigs: [[
-                name: 'github',
-                url: 'https://github.com/iraklivasha/iOSMVPDemo.git'
-            ]]
-        ])
+  stage('cocoapods') {
+      sh 'bundle exec pod install' // cocoapods is used to manage our third-party dependencies
+  }
 
-        // Build and Test
-        sh 'xcodebuild -scheme "MVPDemoTests" -configuration "Debug" build test -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" -enableCodeCoverage YES | /usr/local/bin/xcpretty -r junit'
-
-        // Publish test restults.
-        step([$class: 'JUnitResultArchiver', allowEmptyResults: true, testResults: 'build/reports/junit.xml'])
-    }
-
-    stage('Analytics') {
-
-        parallel Coverage: {
-            // Generate Code Coverage report
-            sh '/usr/local/bin/slather coverage --jenkins --html --scheme TimeTable MVPDemo.xcodeproj/'
-
-            // Publish coverage results
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'html', reportFiles: 'index.html', reportName: 'Coverage Report'])
-
-
-        }, Checkstyle: {
-
-            // Generate Checkstyle report
-            sh '/usr/local/bin/swiftlint lint --reporter checkstyle > checkstyle.xml || true'
-
-            // Publish checkstyle result
-            step([$class: 'CheckStylePublisher', canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'checkstyle.xml', unHealthy: ''])
-        }, failFast: true|false
-    }
-
-    stage ('Notify') {
-        // Send slack notification
-        slackSend channel: '#my-team', message: 'MVDemo - Successfully', teamDomain: 'my-team', token: 'my-token'
-    }
+  stage('tests') {
+      // xcodebuild is a custom Jenkinsfile function we wrote ourselves
+      // every great project has a great test suite, right?
+      xcodebuild 'test', [
+          workspace: 'MVPDemo.xcworkspace',
+          scheme: 'MVPDemoTests',
+          destination: 'platform=iOS Simulator,name=iPhone 8',
+          derivedDataPath: 'derivedData'
+      ]
+  }
 }

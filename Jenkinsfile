@@ -4,6 +4,10 @@ node {
       }
 
       stage ('Pre-Build') {
+        sh '#!/bin/bash -l pod update --verbose'
+      }
+
+      stage ('Pre-Build') {
         sh '#!/bin/bash -l pod install --verbose'
       }
 

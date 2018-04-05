@@ -3,11 +3,6 @@ node {
           checkout scm // we have to pull our code down from git first!
   }
 
-  stage('bundler') {
-      // we use ruby's bundler to ensure our versions of cocoapods and fastlane are correct
-      sh 'bundle install'
-  }
-
   stage('cocoapods') {
       sh 'bundle exec pod install' // cocoapods is used to manage our third-party dependencies
   }

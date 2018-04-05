@@ -3,12 +3,8 @@ node {
         checkout scm
       }
 
-      stage ('Pod Update') {
-        sh '#!/bin/bash -l pod update --verbose'
-      }
-
       stage ('Pre-Build') {
-        sh '#!/bin/bash -l pod install --verbose'
+        bundle exec pod install --verbose
       }
 
       stage ('Build') {

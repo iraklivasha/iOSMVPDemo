@@ -8,11 +8,11 @@ node {
       }
 
       stage ('Build') {
-          sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -scheme "MVPDemo"  ONLY_ACTIVE_ARCH=NO'
+          sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -scheme "MVPDemo" -configuration Debug ONLY_ACTIVE_ARCH=NO'
       }
 
       stage ('Test') {
-        sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -scheme "MBPDemoTests" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" test'
+        sh 'xcodebuild -workspace "MVPDemo.xcworkspace" -configuration Debug -scheme "MBPDemoTests" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" test'
       }
 
   }

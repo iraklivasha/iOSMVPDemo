@@ -4,7 +4,7 @@ node {
       }
 
       stage ('Pre-Build') {
-        sh '#!/bin/bash -l bundle exec pod install --verbose'
+        sh 'bundle exec pod install --verbose'
       }
 
       stage ('Build') {

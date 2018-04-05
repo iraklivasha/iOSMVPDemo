@@ -4,7 +4,7 @@ node {
   }
 
   stage('cocoapods') {
-      sh 'bundle exec pod install' // cocoapods is used to manage our third-party dependencies
+      sh 'pod install --verbose' // cocoapods is used to manage our third-party dependencies
   }
 
   stage('tests') {

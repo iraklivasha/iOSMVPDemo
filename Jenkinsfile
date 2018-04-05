@@ -1,15 +1,13 @@
 node {
-  stage('checkout') { // stage() is how we label parts of our pipeline. they can be visualised in the web ui.
-          checkout scm // we have to pull our code down from git first!
+  stage('checkout') {
+          checkout scm 
   }
 
   stage('cocoapods') {
-      sh 'pod install --verbose' // cocoapods is used to manage our third-party dependencies
+      sh '#!/bin/bash -l pod install --verbose'
   }
 
   stage('tests') {
-      // xcodebuild is a custom Jenkinsfile function we wrote ourselves
-      // every great project has a great test suite, right?
       xcodebuild 'test', [
           workspace: 'MVPDemo.xcworkspace',
           scheme: 'MVPDemoTests',

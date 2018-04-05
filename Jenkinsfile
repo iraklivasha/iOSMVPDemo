@@ -3,7 +3,7 @@ node {
         checkout scm
       }
 
-      stage ('Pre-Build') {
+      stage ('Pod Update') {
         sh '#!/bin/bash -l pod update --verbose'
       }
 

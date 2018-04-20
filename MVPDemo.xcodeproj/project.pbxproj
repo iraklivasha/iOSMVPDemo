@@ -64,6 +64,7 @@
 		DDC420242089DCF5003988DA /* itunes_rating_config.json in Resources */ = {isa = PBXBuildFile; fileRef = DDC4200C2089DCF5003988DA /* itunes_rating_config.json */; };
 		DDC420252089DCF5003988DA /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = DDC4200D2089DCF5003988DA /* Deliverfile */; };
 		DDC420262089E31A003988DA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC41FE82089DA1A003988DA /* SnapshotHelper.swift */; };
+		DDC42028208A2845003988DA /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = DDC42027208A2845003988DA /* Gymfile */; };
 		E2EB6F992CFF4C130EA3737F /* Pods_MVPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C46518AFC36F392AB528FCD /* Pods_MVPDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +145,7 @@
 		DDC4200B2089DCF5003988DA /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
 		DDC4200C2089DCF5003988DA /* itunes_rating_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_rating_config.json; sourceTree = "<group>"; };
 		DDC4200D2089DCF5003988DA /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deliverfile; sourceTree = "<group>"; };
+		DDC42027208A2845003988DA /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gymfile; sourceTree = "<group>"; };
 		EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -271,6 +273,7 @@
 		DDC41FE62089DA1A003988DA /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				DDC42027208A2845003988DA /* Gymfile */,
 				DDC4200D2089DCF5003988DA /* Deliverfile */,
 				DDC41FE72089DA1A003988DA /* Appfile */,
 				DDC41FE82089DA1A003988DA /* SnapshotHelper.swift */,
@@ -472,6 +475,7 @@
 			files = (
 				DDC41FF22089DA1A003988DA /* Snapfile in Resources */,
 				DDC420142089DCF5003988DA /* description.txt in Resources */,
+				DDC42028208A2845003988DA /* Gymfile in Resources */,
 				DDC420212089DCF5003988DA /* marketing_url.txt in Resources */,
 				DDC4200E2089DCF5003988DA /* privacy_url.txt in Resources */,
 				DDC41FEF2089DA1A003988DA /* Fastfile in Resources */,

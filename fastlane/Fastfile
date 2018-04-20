@@ -20,6 +20,10 @@ platform :ios do
     sigh(force: false)
   end
 
+  lane :tests do
+    run_tests(scheme: "MVPDemoTests")
+  end
+
   desc "Take screenshots"
   lane :screenshot do
     snapshot

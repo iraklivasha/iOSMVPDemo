@@ -1,0 +1,1 @@
+App is for only demonstration purposes of MVP architecture and fastlane distribution

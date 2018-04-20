@@ -15,7 +15,7 @@ languages([
 output_directory "./fastlane/screenshots"
 
 # Clears previous screenshots
-clear_previous_screenshots true
+# clear_previous_screenshots true
 
 # Latest version of iOS
-ios_version '11.3'
+# ios_version '11.3'

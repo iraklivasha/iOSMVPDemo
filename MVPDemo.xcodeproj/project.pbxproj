@@ -286,7 +286,6 @@
 		DDC41FF32089DCF5003988DA /* metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DDC41FF42089DCF5003988DA /* ka-GE */,
 				DDC41FFC2089DCF5003988DA /* copyright.txt */,
 				DDC41FFD2089DCF5003988DA /* secondary_first_sub_category.txt */,
 				DDC41FFE2089DCF5003988DA /* secondary_category.txt */,
@@ -294,9 +293,10 @@
 				DDC420002089DCF5003988DA /* AppIcon.png */,
 				DDC420012089DCF5003988DA /* primary_second_sub_category.txt */,
 				DDC420022089DCF5003988DA /* primary_first_sub_category.txt */,
-				DDC420032089DCF5003988DA /* en-US */,
 				DDC4200B2089DCF5003988DA /* primary_category.txt */,
 				DDC4200C2089DCF5003988DA /* itunes_rating_config.json */,
+				DDC41FF42089DCF5003988DA /* ka-GE */,
+				DDC420032089DCF5003988DA /* en-US */,
 			);
 			path = metadata;
 			sourceTree = "<group>";

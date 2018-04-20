@@ -29,6 +29,13 @@ platform :ios do
     snapshot
   end
 
+  lane :beta do
+    build_app(scheme: "MVPDemo")
+    upload_to_testflight
+    slack(message: "Successfully distributed a new beta build")
+  end
+
+
   desc "Create ipa"
   lane :build do
     increment_build_number

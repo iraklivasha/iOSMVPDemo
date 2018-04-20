@@ -21,11 +21,21 @@ or alternatively using `brew cask install fastlane`
 fastlane ios provision
 ```
 Creating a code signing certificate and provisioning profile
+### ios tests
+```
+fastlane ios tests
+```
+
 ### ios screenshot
 ```
 fastlane ios screenshot
 ```
 Take screenshots
+### ios beta
+```
+fastlane ios beta
+```
+
 ### ios build
 ```
 fastlane ios build

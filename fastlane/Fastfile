@@ -57,6 +57,14 @@ platform :ios do
     upload
   end
 
+lane :hockerize do
+    hockey(
+        api_token: "6e2208afb6c34d9f89616ccd6451101c",
+        ipa: "./MVPDemo.ipa",
+        notes: "Changelog"
+    )
+end
+
   error do |lane, exception|
     # This block is called, if there was an error running a specific lane.
   end

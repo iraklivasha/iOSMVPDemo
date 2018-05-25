@@ -21,6 +21,7 @@
 		3828693A206BBDCB0085846B /* AnimalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38286938206BBDCB0085846B /* AnimalTableViewCell.xib */; };
 		3828693C206BBFCB0085846B /* AnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693B206BBFCB0085846B /* AnimalsPresenter.swift */; };
 		3828693E206BC4B00085846B /* AnimalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693D206BC4AF0085846B /* AnimalGateway.swift */; };
+		8C3C5554BFB9CF4BA5BFA294 /* Pods_MVPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */; };
 		BB077C6C5E1D8814F331EF47 /* Pods_MVPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B540E213F274ADFDC377FDEF /* Pods_MVPDemoTests.framework */; };
 		DDB6ED842073AEB700A7778A /* AnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693B206BBFCB0085846B /* AnimalsPresenter.swift */; };
 		DDB6ED852073AEB700A7778A /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286933206BB4C70085846B /* GenericDataSource.swift */; };
@@ -29,7 +30,6 @@
 		DDB6ED882073AEB700A7778A /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286937206BBDCB0085846B /* AnimalTableViewCell.swift */; };
 		DDB6ED892073AEB700A7778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286905206BB1370085846B /* AppDelegate.swift */; };
 		DDB6ED8A2073AEB700A7778A /* AnimalGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828693D206BC4AF0085846B /* AnimalGateway.swift */; };
-		DDB6ED8C2073AEB700A7778A /* Pods_MVPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */; };
 		DDB6ED8E2073AEB700A7778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3828690E206BB1370085846B /* LaunchScreen.storyboard */; };
 		DDB6ED8F2073AEB700A7778A /* AnimalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38286938206BBDCB0085846B /* AnimalTableViewCell.xib */; };
 		DDB6ED902073AEB700A7778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3828690C206BB1370085846B /* Assets.xcassets */; };
@@ -65,6 +65,7 @@
 		DDC420252089DCF5003988DA /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = DDC4200D2089DCF5003988DA /* Deliverfile */; };
 		DDC420262089E31A003988DA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC41FE82089DA1A003988DA /* SnapshotHelper.swift */; };
 		DDC42028208A2845003988DA /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = DDC42027208A2845003988DA /* Gymfile */; };
+		DDD1247920B804F0007E2DB2 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = DDD1247820B804F0007E2DB2 /* Jenkinsfile */; };
 		E2EB6F992CFF4C130EA3737F /* Pods_MVPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C46518AFC36F392AB528FCD /* Pods_MVPDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 
 /* Begin PBXFileReference section */
 		1C46518AFC36F392AB528FCD /* Pods_MVPDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2498BFDC83CE4D58C11847E4 /* Pods-MVPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		25D2F39EACD90FE66F4E8F8F /* Pods-MVPDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		38286902206BB1370085846B /* MVPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38286905206BB1370085846B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,11 +110,9 @@
 		3828693B206BBFCB0085846B /* AnimalsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsPresenter.swift; sourceTree = "<group>"; };
 		3828693D206BC4AF0085846B /* AnimalGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGateway.swift; sourceTree = "<group>"; };
 		4BADDE767D9F67FE1CDC0FCA /* Pods-MVPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6F6FA09BD5D0365E07DADDA3 /* Pods-MVPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7D789308DA070C2E760CF10B /* Pods-MVPDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoUITests/Pods-MVPDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E8F58C642A091EC3DAF2CF8 /* Pods-MVPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemoUITests/Pods-MVPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B540E213F274ADFDC377FDEF /* Pods_MVPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DDB6ED972073AEB700A7778A /* MVPDemoRel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemoRel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6ED982073AEB700A7778A /* MVPDemoRel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MVPDemoRel-Info.plist"; path = "/Users/iraklivashakidze/Desktop/projects/demos/iOSMVPDemo/MVPDemoRel-Info.plist"; sourceTree = "<absolute>"; };
 		DDC41FE72089DA1A003988DA /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
@@ -146,7 +146,9 @@
 		DDC4200C2089DCF5003988DA /* itunes_rating_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_rating_config.json; sourceTree = "<group>"; };
 		DDC4200D2089DCF5003988DA /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deliverfile; sourceTree = "<group>"; };
 		DDC42027208A2845003988DA /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gymfile; sourceTree = "<group>"; };
+		DDD1247820B804F0007E2DB2 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		EAE6F7A7BBBF32E5B374D682 /* Pods_MVPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F606B3E9E523AEA6D390E9DE /* Pods-MVPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A3C5E9D806AE9DD881387F /* Pods_MVPDemo.framework in Frameworks */,
+				8C3C5554BFB9CF4BA5BFA294 /* Pods_MVPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +181,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB6ED8C2073AEB700A7778A /* Pods_MVPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +200,12 @@
 		365C5E7C922D56051CED32BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F6FA09BD5D0365E07DADDA3 /* Pods-MVPDemo.debug.xcconfig */,
-				D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */,
 				4BADDE767D9F67FE1CDC0FCA /* Pods-MVPDemoTests.debug.xcconfig */,
 				25D2F39EACD90FE66F4E8F8F /* Pods-MVPDemoTests.release.xcconfig */,
 				7D789308DA070C2E760CF10B /* Pods-MVPDemoUITests.debug.xcconfig */,
 				7E8F58C642A091EC3DAF2CF8 /* Pods-MVPDemoUITests.release.xcconfig */,
+				F606B3E9E523AEA6D390E9DE /* Pods-MVPDemo.debug.xcconfig */,
+				2498BFDC83CE4D58C11847E4 /* Pods-MVPDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 		382868F9206BB1370085846B = {
 			isa = PBXGroup;
 			children = (
+				DDD1247820B804F0007E2DB2 /* Jenkinsfile */,
 				38286904206BB1370085846B /* MVPDemo */,
 				38286919206BB1370085846B /* MVPDemoTests */,
 				38286924206BB1370085846B /* MVPDemoUITests */,
@@ -345,6 +348,7 @@
 				38286900206BB1370085846B /* Resources */,
 				9C229593653D01F2DBF2C449 /* [CP] Embed Pods Frameworks */,
 				BA9A933EBCB8A41902139EE3 /* [CP] Copy Pods Resources */,
+				DDD1247720B7F8EE007E2DB2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -401,12 +405,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDB6ED942073AEB700A7778A /* Build configuration list for PBXNativeTarget "MVPDemoRel" */;
 			buildPhases = (
-				DDB6ED822073AEB700A7778A /* [CP] Check Pods Manifest.lock */,
 				DDB6ED832073AEB700A7778A /* Sources */,
 				DDB6ED8B2073AEB700A7778A /* Frameworks */,
 				DDB6ED8D2073AEB700A7778A /* Resources */,
-				DDB6ED922073AEB700A7778A /* [CP] Embed Pods Frameworks */,
-				DDB6ED932073AEB700A7778A /* [CP] Copy Pods Resources */,
 				DDB6ED9A2073AF8000A7778A /* ShellScript */,
 			);
 			buildRules = (
@@ -495,6 +496,7 @@
 				3828693A206BBDCB0085846B /* AnimalTableViewCell.xib in Resources */,
 				DDC420242089DCF5003988DA /* itunes_rating_config.json in Resources */,
 				DDC4201E2089DCF5003988DA /* keywords.txt in Resources */,
+				DDD1247920B804F0007E2DB2 /* Jenkinsfile in Resources */,
 				DDC41FF12089DA1A003988DA /* report.xml in Resources */,
 				DDC420112089DCF5003988DA /* release_notes.txt in Resources */,
 				DDC420122089DCF5003988DA /* name.txt in Resources */,
@@ -610,9 +612,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -652,57 +657,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemoTests/Pods-MVPDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DDB6ED822073AEB700A7778A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVPDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDB6ED922073AEB700A7778A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDB6ED932073AEB700A7778A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPDemo/Pods-MVPDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DDB6ED9A2073AF8000A7778A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -715,6 +669,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "echo \"irakli\"\ncp MVPDemoRel-Info.plist /Users/iraklivashakidze/Desktop/deleteme.plist";
+		};
+		DDD1247720B7F8EE007E2DB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
 		};
 		FB342819D9B818157764F5EF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -941,12 +908,12 @@
 		};
 		3828692B206BB1370085846B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6FA09BD5D0365E07DADDA3 /* Pods-MVPDemo.debug.xcconfig */;
+			baseConfigurationReference = F606B3E9E523AEA6D390E9DE /* Pods-MVPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = F4U6C4J697;
 				INFOPLIST_FILE = MVPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -962,13 +929,13 @@
 		};
 		3828692C206BB1370085846B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */;
+			baseConfigurationReference = 2498BFDC83CE4D58C11847E4 /* Pods-MVPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = F4U6C4J697;
 				INFOPLIST_FILE = MVPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1061,7 +1028,6 @@
 		};
 		DDB6ED952073AEB700A7778A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6FA09BD5D0365E07DADDA3 /* Pods-MVPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -1079,7 +1045,6 @@
 		};
 		DDB6ED962073AEB700A7778A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D18F00710791594903094D97 /* Pods-MVPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";

@@ -51,6 +51,11 @@ Upload to App Store and submit for review
 fastlane ios do_everything
 ```
 Provision, take screenshots, build and upload to App Store
+### ios hockerize
+```
+fastlane ios hockerize
+```
+
 
 ----
 

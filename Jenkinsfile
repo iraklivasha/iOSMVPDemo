@@ -14,9 +14,4 @@ node {
       stage ('Deploy') {
         sh 'fastlane hockerize'
       }
-
-#      stage ('Test') {
-#        sh 'fastlane test'
-#      }
-
   }
